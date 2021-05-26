@@ -16,6 +16,16 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 40px;
+
+  @media (max-width: 568px) {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 568px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
 `;
 
 export default About;
