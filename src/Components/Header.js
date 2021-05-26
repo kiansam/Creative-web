@@ -19,7 +19,6 @@ const Header = (props) => {
           <span>Contact us</span>
         </a>
       </NavMenu>
-      <Wrap>Hi</Wrap>
       <Login>Login</Login>
     </Container>
   );
@@ -56,15 +55,6 @@ const Logo = styled.a`
       /* align-items: center; */
     }
   }
-`;
-
-const Wrap = styled.div`
-  align-items: center;
-  display: flex;
-  flex-flow: row nowrap;
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
 `;
 
 const NavMenu = styled.div`
